@@ -9,4 +9,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'terryma/vim-smooth-scroll'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'tpope/vim-fugitive'
 call plug#end()
