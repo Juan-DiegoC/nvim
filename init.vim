@@ -5,3 +5,5 @@ source $HOME/.config/nvim/modules/base.vim
 source $HOME/.config/nvim/modules/mappings.vim 
 source $HOME/.config/nvim/modules/airline.vim 
 source $HOME/.config/nvim/modules/vimwiki.vim 
+source $HOME/.config/nvim/modules/fzf.vim 
+source $HOME/.config/nvim/modules/vim-startify.vim
