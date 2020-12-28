@@ -16,3 +16,4 @@ set rnu " sets relative numbers
  " set undodir=~/.vim/undodir
  " set undofile
 
+colorscheme minimalist
