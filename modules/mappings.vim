@@ -20,3 +20,6 @@ tnoremap <A-l> <C-\><C-N><C-w>l
 
 nnoremap <silent> <leader> :WhichKey '<leader>'<CR>
 
+" Should add a mapping to create a line above without 
+" moving cursor and putting me into insert mode, something 
+" like: https://vim.fandom.com/wiki/Insert_newline_without_entering_insert_mode
