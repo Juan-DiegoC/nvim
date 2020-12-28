@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/juandiego/.config/nvim/vim-plug'
+let g:netrw_dirhist_8='/home/juandiego/.config/nvim'
+let g:netrw_dirhist_7='/home/juandiego/.config/nvim/session'
+let g:netrw_dirhist_6='/home/juandiego/.config/nvim'
+let g:netrw_dirhist_5='/home/juandiego/.config/nvim/vim-plug'
 let g:netrw_dirhist_4='/home/juandiego/.config/nvim/modules'
 let g:netrw_dirhist_3='/home/juandiego/Desktop'
 let g:netrw_dirhist_2='/home/juandiego/Documents/BashScripts'
