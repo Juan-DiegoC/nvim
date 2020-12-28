@@ -7,3 +7,4 @@ source $HOME/.config/nvim/modules/airline.vim
 source $HOME/.config/nvim/modules/vimwiki.vim 
 source $HOME/.config/nvim/modules/fzf.vim 
 source $HOME/.config/nvim/modules/vim-startify.vim
+source $HOME/.config/nvim/modules/undotree.vim

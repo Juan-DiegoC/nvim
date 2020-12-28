@@ -15,4 +15,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     Plug 'chrisbra/Colorizer'
     Plug 'mhinz/vim-startify'
+    Plug 'machakann/vim-highlightedyank'
 call plug#end()
