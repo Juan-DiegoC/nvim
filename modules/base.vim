@@ -11,6 +11,9 @@ set noswapfile
 set incsearch   
 set nu 
 set rnu " sets relative numbers 
+set spell
+set spelllang=en
+set spellfile=$HOME/Dropbox/vim/spell/en.utf-8.add
 
  " set nobackup
  " set undodir=~/.vim/undodir
