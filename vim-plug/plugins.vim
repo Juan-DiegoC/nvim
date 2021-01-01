@@ -11,6 +11,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'psliwka/vim-smoothie'
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    Plug 'stsewd/fzf-checkout.vim'
     Plug 'tpope/vim-fugitive' " For Git help
     " Plug 'tpope/vim-rhubarb' possible help 
     Plug 'neoclide/coc.nvim' " For increment completion 
