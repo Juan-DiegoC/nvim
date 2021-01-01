@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'chrisbra/Colorizer'
     Plug 'mhinz/vim-startify'
     Plug 'machakann/vim-highlightedyank'
-    Plug 'dikiaap/minimalist'
+    Plug 'svermeulen/vim-easyclip'
+    " Plug 'dikiaap/minimalist'
     " Plug ' noahfrederick/vim-noctu'
 call plug#end()
