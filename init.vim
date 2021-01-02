@@ -8,3 +8,5 @@ source $HOME/.config/nvim/modules/vimwiki.vim
 source $HOME/.config/nvim/modules/fzf.vim 
 source $HOME/.config/nvim/modules/vim-startify.vim
 source $HOME/.config/nvim/modules/undotree.vim
+source $HOME/.config/nvim/modules/vim-fugitive.vim
+source $HOME/.config/nvim/modules/coc.vim
