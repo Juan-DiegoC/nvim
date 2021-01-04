@@ -74,7 +74,14 @@ let Git.auto_export = 1 " Will automatically create an HTML file when wiki is sa
 let Git.auto_generate_links = 1
 let Git.index = 'Git_Relay'
 
-let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code]
+let Development = {}
+let Development.name = 'Development '
+let Development.path = '~/vimwiki/Development '
+let Development.path_html = '~/vimwiki_html/Development_html'
+let Development.auto_export = 1 " Will automatically create an HTML file when wiki is saved
+let Development.auto_generate_links = 1
+let Development.index = 'Development_Relay'
+let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development ]
 
 
 " Should set the *template_path* soon or *template_default* 
