@@ -4,8 +4,7 @@ let Relay_Wiki.path = '~/vimwiki/Relay_Wiki'
 let Relay_Wiki.path_html = '~/vimwiki_html/Relay_Wiki_html'
 let Relay_Wiki.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Relay_Wiki.auto_generate_links = 1
-let Relay_Wiki.index = 'relay'
-
+let Relay_Wiki.index = 'Relay'
 
 "let Relay_Wiki.syntaArtificial_Intelligence= 'markdown'
 "let Relay_Wiki.eArtificial_Intelligencet= '.md'
@@ -46,7 +45,7 @@ let Artificial_Intelligence = {}
 let Artificial_Intelligence.name = 'Artificial Intelligence'
 let Artificial_Intelligence.path = '~/vimwiki/Artificial_Intelligence'
 let Artificial_Intelligence.path_html = '~/vimwiki_html/Artificial_Intelligence_html'
-let Artificial_Intelligence.auto_eClean_Codeport = 1 " Will automatically create an HTML file when wiki is saved
+let Artificial_Intelligence.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Artificial_Intelligence.auto_generate_links = 1
 let Artificial_Intelligence.index = 'Artificial_Intelligence_Relay'
 
@@ -55,7 +54,7 @@ let Python = {}
 let Python.name = 'Python'
 let Python.path = '~/vimwiki/Python'
 let Python.path_html = '~/vimwiki_html/Python_html'
-let Python.auto_eGitport = 1 " Will automatically create an HTML file when wiki is saved
+let Python.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Python.auto_generate_links = 1
 let Python.index = 'Python_Relay'
 
@@ -78,11 +77,9 @@ let Git.index = 'Git_Relay'
 let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code]
 
 
-
 " Should set the *template_path* soon or *template_default* 
 " Need to add markdown for the syntaArtificial_Intelligence: let g:vimwiki_eClean_Codet2syntaPython = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 " Also can do: let g:vimwiki_list = [{'path': '~/vimwiki/',
 "                      \ 'syntaArtificial_Intelligence': 'markdown', 'eClean_Codet': '.md'}]
 " https://github.com/patrickdavey/vimwiki_markdown
 " https://github.com/WnP/vimwiki_markdown
-
