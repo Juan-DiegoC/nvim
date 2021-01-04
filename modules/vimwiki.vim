@@ -12,7 +12,7 @@ let Relay_Wiki.index = 'Relay'
 let Kunst_Solutions = {}
 let Kunst_Solutions.name = 'Kunst Solutions'
 let Kunst_Solutions.path = '~/vimwiki/Kunst_Solutions'
-let Kunst_Solutions.path_html = '~/vimwiki_html/Kunst_Solutions_html'
+let Kunst_Solutions.path_html = '~/vimwiki_html/Kunst_Solutions'
 let Kunst_Solutions.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Kunst_Solutions.auto_generate_links = 1
 let Kunst_Solutions.index = 'Kunst_Relay'
@@ -60,7 +60,7 @@ let Python.index = 'Python_Relay'
 
 let Clean_Code = {}
 let Clean_Code.name = 'Clean Code'
-let Clean_Code.path = '~/vimwiki/Clean Code'
+let Clean_Code.path = '~/vimwiki/Clean_Code'
 let Clean_Code.path_html = '~/vimwiki_html/Clean_Code_html'
 let Clean_Code.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Clean_Code.auto_generate_links = 1
@@ -75,13 +75,22 @@ let Git.auto_generate_links = 1
 let Git.index = 'Git_Relay'
 
 let Development = {}
-let Development.name = 'Development '
-let Development.path = '~/vimwiki/Development '
+let Development.name = 'Development'
+let Development.path = '~/vimwiki/Development'
 let Development.path_html = '~/vimwiki_html/Development_html'
 let Development.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Development.auto_generate_links = 1
 let Development.index = 'Development_Relay'
-let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development ]
+
+let The_Daily = {}
+let The_Daily.name = 'The Daily'
+let The_Daily.path = '~/vimwiki/The_Daily'
+let The_Daily.path_html = '~/vimwiki_html/The_Daily_html'
+let The_Daily.auto_export = 1 " Will automatically create an HTML file when wiki is saved
+let The_Daily.auto_generate_links = 1
+let The_Daily.index = 'The_Daily_Relay'
+
+let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily]
 
 
 " Should set the *template_path* soon or *template_default* 
