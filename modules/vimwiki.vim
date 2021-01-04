@@ -50,7 +50,8 @@ let Clean_Code.path_html = '~/vimwiki_html/Clean_Code_html'
 let Clean_Code.auto_export = 1 " Will automatically create an HTML file when wiki is saved
 let Clean_Code.auto_generate_links = 1
 
-let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence]
+let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code]
+
 
 
 " Should set the *template_path* soon or *template_default* 
