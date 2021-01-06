@@ -90,7 +90,15 @@ let The_Daily.auto_export = 1 " Will automatically create an HTML file when wiki
 let The_Daily.auto_generate_links = 1
 let The_Daily.index = 'The_Daily_Relay'
 
-let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily]
+let Linux_Servers = {}
+let Linux_Servers.name = 'Linux Servers'
+let Linux_Servers.path = '~/vimwiki/Linux_Servers'
+let Linux_Servers.path_html = '~/vimwiki_html/Linux_Servers_html'
+let Linux_Servers.auto_export = 1 " Will automatically create an HTML file when wiki is saved
+let Linux_Servers.auto_generate_links = 1
+let Linux_Servers.index = 'Linux_Servers_Relay'
+
+let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily, Linux_Servers]
 
 
 " Should set the *template_path* soon or *template_default* 
