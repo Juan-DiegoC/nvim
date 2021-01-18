@@ -1,12 +1,15 @@
 syntax on 
 filetype plugin on 
-set noerrorbells 
+
 set expandtab
+" set smarttab Not sure what it does yet
 set smartindent 
 set tabstop=4 softtabstop=4
 set shiftwidth=4 
+
 set nowrap  
 set noswapfile 
+
 set incsearch  " Add keybinding 
 set nohlsearch " when you search it wont remain highlighted
 set nu 
@@ -17,6 +20,7 @@ set spelllang=en
 set spellfile=$HOME/Dropbox/vim/spell/en.utf-8.add
 set hidden 
 set noerrorbells
+set clipboard=unnamedplus " Will copy everything to the "+ register and it can then be used anywhere outside of vim
 
 
 " Recommendation from: https://xspdf.com/resolution/235439.html  
