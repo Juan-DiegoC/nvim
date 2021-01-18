@@ -39,6 +39,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 
     " Ligarure support
+    " godlygeek/tabular
     " Plug 'airblade/vim-gitgutter'
     " Plug 'enomsg/vim-haskellConcealPlus'
     " Plug 'svermeulen/vim-easyclip'
