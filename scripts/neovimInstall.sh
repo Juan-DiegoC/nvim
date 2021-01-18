@@ -14,7 +14,8 @@ fi
 git clone git@github.com:Juan-DiegoC/nvim.git ~/.config
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # Dependancies for Plugins
-sudo apt install nodejs # Is needed for coc plugin
+# Coc Install
+sudo apt install nodejs npm # Is needed for coc plugin
 npm install -g neovim
 
 
