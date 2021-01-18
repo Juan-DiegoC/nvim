@@ -16,7 +16,10 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 # Dependancies for Plugins
 # Coc Install
 sudo apt install nodejs npm # Is needed for coc plugin
-npm install -g neovim
+sudo npm install -g neovim
+
+# Need to install fzf to the system
+# Need to say :CocInstall coc-tsserver or :CocInstall coc-json 
 
 
 
