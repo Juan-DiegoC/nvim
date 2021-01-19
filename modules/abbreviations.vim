@@ -31,7 +31,7 @@ au FileType javascript ab switch swtich(){<CR>case <++>:<CR><Tab><++><CR>break;<
 au FileType javascript ab try try {<CR>} catch (<++>) {<CR><++>}<Esc>3ki<Tab>
 " ab const
 
-au FileType javascript ab obj : {<CR><++>: <++>,}<Esc>kkhi
+au FileType javascript ab obj : {<CR><++>: <++>,};<Esc>2khi
 au FileType javascript ab keys : <++>,<Esc>F:Xi
 
 
