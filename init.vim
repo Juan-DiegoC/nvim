@@ -11,6 +11,7 @@ source $HOME/.config/nvim/modules/undotree.vim
 source $HOME/.config/nvim/modules/vim-fugitive.vim
 source $HOME/.config/nvim/modules/coc.vim
 source $HOME/.config/nvim/modules/abbreviations.vim
+source $HOME/.config/nvim/modules/bracey.vim
 
 
 
