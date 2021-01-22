@@ -35,6 +35,13 @@ nnoremap <leader>gc :GCheckout<CR>
 " Highlight off
 nnoremap <leader>ho :set cc=0<CR>
 
+" Bracey Live Server Shortcuts
+nnoremap <leader>bb :Bracey<CR>
+nnoremap <leader>bs :BraceyStop<CR>
+nnoremap <leader>br :BraceyReload<CR>
+
+
+
 
 " Should add a mapping to create a line above without 
 " moving cursor and putting me into insert mode, something 
