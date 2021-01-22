@@ -106,7 +106,7 @@ let Projects.auto_export = 1 " Will automatically create an HTML file when wiki 
 let Projects.auto_generate_links = 1
 let Projects.index = 'Projects_Relay'
 
-let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily, Linux_Servers]
+let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily, Linux_Servers, Projects]
 
 
 " Should set the *template_path* soon or *template_default* 
