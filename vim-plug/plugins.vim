@@ -32,7 +32,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Web Development
     Plug 'chrisbra/Colorizer', {'for': ['html', 'css']}
-    Plug 'turbio/bracey.vim' , {'for': 'html'} "for live browser
+    Plug 'turbio/bracey.vim' , {'for': 'html', 'do':'npm install --prefix server'} "for live browser
     Plug 'jiangmiao/auto-pairs', {'for': ['javascript','python','html', 'css', 'wiki']} 
     Plug 'mattn/emmet-vim' , {'for': ['html', 'css']} " can use to make sure plugin only works on this file, {'for': 'html'}
     Plug 'evanleck/vim-svelte', {'for': 'svelte'} 
