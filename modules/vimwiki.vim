@@ -98,6 +98,14 @@ let Linux_Servers.auto_export = 1 " Will automatically create an HTML file when 
 let Linux_Servers.auto_generate_links = 1
 let Linux_Servers.index = 'Linux_Servers_Relay'
 
+let Projects = {}
+let Projects.name = 'Projects'
+let Projects.path = '~/vimwiki/Projects'
+let Projects.path_html = '~/vimwiki_html/Projects_html'
+let Projects.auto_export = 1 " Will automatically create an HTML file when wiki is saved
+let Projects.auto_generate_links = 1
+let Projects.index = 'Projects_Relay'
+
 let g:vimwiki_list = [Relay_Wiki, Kunst_Solutions, JavaScript, Reading, Vim, Artificial_Intelligence, Clean_Code, Development, Python, Git, The_Daily, Linux_Servers]
 
 
