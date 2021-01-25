@@ -23,6 +23,8 @@ set noerrorbells
 set clipboard=unnamedplus " Will copy everything to the "+ register and it can then be used anywhere outside of vim
 
 
+let mapleader = "\<Space>"
+
 " Recommendation from: https://xspdf.com/resolution/235439.html  
 let &colorcolumn=join(range(81,82),",")
 hi ColorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE
