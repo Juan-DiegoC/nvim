@@ -29,12 +29,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-abolish' 
     Plug 'tpope/vim-commentary', {'for': ['javascript','python','html', 'css', 'wiki']} 
 
-
     " Web Development
     Plug 'chrisbra/Colorizer', {'for': ['html', 'css']}
-    Plug 'turbio/bracey.vim' , {'for': 'html', 'do':'npm install --prefix server'} "for live browser
+    Plug 'turbio/bracey.vim' , {'do':'npm install --prefix server'} "for live browser
     Plug 'jiangmiao/auto-pairs', {'for': ['javascript','python','html', 'css', 'wiki']} 
-    Plug 'mattn/emmet-vim' , {'for': ['html', 'css']} " can use to make sure plugin only works on this file, {'for': 'html'}
+    Plug 'mattn/emmet-vim' , {'for': ['html', 'css', 'javascript']} " can use to make sure plugin only works on this file, {'for': 'html'}
     Plug 'evanleck/vim-svelte', {'for': 'svelte'} 
     Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 
