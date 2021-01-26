@@ -40,7 +40,8 @@ nnoremap <leader>bb :Bracey<CR>
 nnoremap <leader>bs :BraceyStop<CR>
 nnoremap <leader>br :BraceyReload<CR>
 
-
+au FileType vimwiki nnoremap _ bi_<Esc>ea_
+au FileType vimwiki nnoremap * bi*<Esc>ea*
 
 
 " Should add a mapping to create a line above without 
