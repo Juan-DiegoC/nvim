@@ -1,12 +1,12 @@
 syntax on 
 filetype plugin on 
+filetype on 
 
 set expandtab
 " set smarttab Not sure what it does yet
 set smartindent 
 set tabstop=4 softtabstop=4
 set shiftwidth=4 
-
 set nowrap  
 set noswapfile 
 
