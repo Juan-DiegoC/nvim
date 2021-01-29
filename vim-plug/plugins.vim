@@ -17,6 +17,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'stsewd/fzf-checkout.vim'
     " Git help
     Plug 'tpope/vim-fugitive' 
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
     " Coc 
     Plug 'neoclide/coc.nvim'
     " Which key
