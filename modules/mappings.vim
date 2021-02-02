@@ -26,23 +26,26 @@ nnoremap <leader>r :! node %<CR>
 inoremap jf <Esc>/<++><Enter>"_c4l
 
 nnoremap <Enter> o<Esc>
-nnoremap <S-Enter> O<Esc>
-
-
-nnoremap <leader>gc :GCheckout<CR>
-
 
 " Highlight off
 nnoremap <leader>ho :set cc=0<CR>
 
 " Bracey Live Server Shortcuts
 nnoremap <leader>bb :Bracey<CR>
-nnoremap <leader>bs :BraceyStop<CR>
+nnoremap <leader>bs :BraceyStop
 nnoremap <leader>br :BraceyReload<CR>
 
+" Vimwiki
 au FileType vimwiki nnoremap _ bi_<Esc>ea_<Esc>
 au FileType vimwiki nnoremap * bi*<Esc>ea*<Esc>
 
+" Git
+" Git Show/Status
+nnoremap <leader>gs :G<CR> 
+" Git Push
+nnoremap <leader>gp :Gpush<CR> 
+" Git Checkout
+nnoremap <leader>gc :GCheckout<CR>
 
 " Should add a mapping to create a line above without 
 " moving cursor and putting me into insert mode, something 
