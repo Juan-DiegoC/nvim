@@ -21,8 +21,8 @@ set spellfile=$HOME/Dropbox/vim/spell/en.utf-8.add
 set hidden 
 set noerrorbells
 set clipboard=unnamedplus " Will copy everything to the "+ register and it can then be used anywhere outside of vim
-
-
+set viminfo='1000,f1 " save marks after file is closed https://stackoverflow.com/questions/8958047/in-vim-is-there-a-way-to-save-bookmarks-between-sessions
+" aADD https://askubuntu.com/questions/202075/how-do-i-get-vim-to-remember-the-line-i-was-on-when-i-reopen-a-file
 let mapleader = "\<Space>"
 
 " Recommendation from: https://xspdf.com/resolution/235439.html  
