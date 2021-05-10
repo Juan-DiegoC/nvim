@@ -24,19 +24,31 @@ set clipboard=unnamedplus " Will copy everything to the "+ register and it can t
 set viminfo='1000,f1 " save marks after file is closed https://stackoverflow.com/questions/8958047/in-vim-is-there-a-way-to-save-bookmarks-between-sessions
 " aADD https://askubuntu.com/questions/202075/how-do-i-get-vim-to-remember-the-line-i-was-on-when-i-reopen-a-file
 let mapleader = "\<Space>"
+set splitbelow 
+
+" if has('termguicolors')
+"     set termguicolors
+" endif
 
 " Recommendation from: https://xspdf.com/resolution/235439.html  
 let &colorcolumn=join(range(81,82),",")
-hi ColorColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE
+hi ColorColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=NONE
 
 set cursorline
-hi CursorLine cterm=NONE ctermbg=234 ctermfg=NONE
+hi CursorLine cterm=NONE ctermbg=235 ctermfg=NONE
 
 " Will change the color of the column on the left
-hi SignColumn cterm=NONE ctermbg=234 ctermfg=NONE guibg=NONE
+hi SignColumn cterm=NONE ctermbg=235 ctermfg=NONE guibg=NONE
 
 " Will remove the color of all numbers except current line nuber
 highlight LineNr ctermfg=grey 
+
+au BufNewFile,BufRead *.ejs set filetype=html
+
+" For vuejs
+let g:vim_vue_plugin_load_full_syntax = 1
+
+
 
 " set linebreak 
 " set brk=85 

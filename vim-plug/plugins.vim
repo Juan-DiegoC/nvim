@@ -15,6 +15,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'stsewd/fzf-checkout.vim'
+    Plug 'airblade/vim-rooter'
+    Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/remote', 'do': ':UpdateRemotePlugins' }
+    " Plug 'sharkdp/bat'
+    Plug 'ryanoasis/vim-devicons'
+    
     " Git help
     Plug 'tpope/vim-fugitive' 
     Plug 'tpope/vim-rhubarb'
@@ -29,16 +34,25 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank' " Will highlight yanks
 
     Plug 'tpope/vim-abolish' 
-    Plug 'tpope/vim-commentary', {'for': ['javascript','python','html', 'css', 'wiki']} 
+    Plug 'tpope/vim-commentary'
 
     " Web Development
-    Plug 'chrisbra/Colorizer', {'for': ['html', 'css']}
+    Plug 'chrisbra/Colorizer'
     Plug 'turbio/bracey.vim' , {'do':'npm install --prefix server'} "for live browser
-    Plug 'jiangmiao/auto-pairs', {'for': ['javascript','python','html', 'css', 'wiki']} 
-    Plug 'mattn/emmet-vim' , {'for': ['html', 'css', 'javascript']} " can use to make sure plugin only works on this file, {'for': 'html'}
+    Plug 'jiangmiao/auto-pairs', {'for': ['javascript','python','html', 'css', 'wiki', 'vue', 'sql', 'vim']} 
+    Plug 'mattn/emmet-vim' , {'for': ['html', 'css', 'javascript', 'vue', 'svelte']} " can use to make sure plugin only works on this file, {'for': 'html'}
     Plug 'evanleck/vim-svelte', {'for': 'svelte'} 
     Plug 'pangloss/vim-javascript', {'for': 'javascript'}
+    Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+    Plug 'leafOfTree/vim-vue-plugin' " For vuejs
+    Plug 'unblevable/quick-scope'
+    Plug 'shmup/vim-sql-syntax'
 
+    " Database
+    Plug 'tpope/vim-dadbod'
+    Plug 'kristijanhusak/vim-dadbod-ui'
     " Ligarure support
     " godlygeek/tabular
     " Plug 'airblade/vim-gitgutter'

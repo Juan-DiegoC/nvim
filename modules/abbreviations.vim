@@ -21,6 +21,7 @@ au FileType javascript
 au FileType javascript ab for for(i = 0; i =; i++){<CR><++>}<Esc>kkf=;a
 au FileType javascript ab forof for(let of <++>){<CR><++>}<Esc>kkfta
 au FileType javascript ab foreach .forEach(<CR>function (<++>){<CR><++>});<Esc>4kF.hi<del>
+" Add for in 
 au FileType javascript ab while while (){<CR><++>}<Esc>kkf(a
 
 
