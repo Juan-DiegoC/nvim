@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     " Coc 
-    Plug 'neoclide/coc.nvim'
+    Plug 'neoclide/coc.nvim', {'branch':'release'}
     " Which key
     Plug 'liuchengxu/vim-which-key'
     " Startify
@@ -39,22 +39,46 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Web Development
     Plug 'chrisbra/Colorizer'
     Plug 'turbio/bracey.vim' , {'do':'npm install --prefix server'} "for live browser
-    Plug 'jiangmiao/auto-pairs', {'for': ['javascript','python','html', 'css', 'wiki', 'vue', 'sql', 'vim']} 
+    Plug 'jiangmiao/auto-pairs', {'for': ['javascript', 'vue', 'typescript','python','html', 'css', 'wiki', 'vue', 'sql', 'vim', 'rust']} 
     Plug 'mattn/emmet-vim' , {'for': ['html', 'css', 'javascript', 'vue', 'svelte']} " can use to make sure plugin only works on this file, {'for': 'html'}
     Plug 'evanleck/vim-svelte', {'for': 'svelte'} 
     Plug 'pangloss/vim-javascript', {'for': 'javascript'}
     Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html', 'rust'] }
     Plug 'leafOfTree/vim-vue-plugin' " For vuejs
     Plug 'unblevable/quick-scope'
     Plug 'shmup/vim-sql-syntax'
+    Plug 'junegunn/goyo.vim'
 
     " Database
     Plug 'tpope/vim-dadbod'
     Plug 'kristijanhusak/vim-dadbod-ui'
+    Plug 'kristijanhusak/vim-dadbod-completion'
+    
     " Ligarure support
-    " godlygeek/tabular
+    " Plug 'godlygeek/tabular'
+    " Plug 'Yggdroot/indentLine'
+
+    " RUST
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'simrat39/rust-tools.nvim'
+
+    " Debugging
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'mfussenegger/nvim-dap'
+
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+    " RUST END
+
+    " typescript / javascript
+    Plug 'leafgarland/typescript-vim'
+    " Plug 'leafOfTree/vim-vue-plugin'
+    " Recommended by
+    " https://pragmaticpineapple.com/ultimate-vim-typescript-setup/
+
+    " Plug 'plasticboy/vim-markdown'
     " Plug 'airblade/vim-gitgutter'
     " Plug 'enomsg/vim-haskellConcealPlus'
     " Plug 'svermeulen/vim-easyclip'

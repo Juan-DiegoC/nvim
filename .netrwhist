@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/mnt/c/Users/juand/Downloads/160012009.png'
+let g:netrw_dirhist_4='/home/juandiego/rust/guessing_game/src'
+let g:netrw_dirhist_3='/home/juandiego/.cargo/bin'
+let g:netrw_dirhist_2='/home/juandiego/.cargo'
+let g:netrw_dirhist_1='/home/juandiego/.cargo/bin'
+let g:netrw_dirhist_0='/home/juandiego/.cargo'
+let g:netrw_dirhist_9='/mnt/c/Users/juand/Downloads/getting-started-typescript/02/demos/demos/After/js'
+let g:netrw_dirhist_8='/home/juandiego/jonty/src'
+let g:netrw_dirhist_7='/home/juandiego/jonty'
+let g:netrw_dirhist_6='/home/juandiego/pg-relationship-seeder'
