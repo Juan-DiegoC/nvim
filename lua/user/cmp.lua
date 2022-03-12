@@ -15,32 +15,32 @@ local check_backspace = function()
   return col == 0 or vim.fn.getline("."):sub(col, col):match "%s"
 end
 
---   פּ ﯟ   some other good icons TODO: merge both fonts
+-- TODO: merge fira code with hacker font
 local kind_icons = {
   Text = "ͳ",
-  Method = "m",
+  Method = "ϻ",
   Function = "ƒ",
   Constructor = "Ҩ",
   Field = "ӻ",
   Variable = "v",
   Class = "C",
   Interface = "Ѫ",
-  Module = "ф",
-  Property = "ѧ",
+  Module = "Ҧ", --ф
+  Property = "ρ", --ѧ
   Unit = "▢",
-  Value = "⊨",
+  Value = "ѵ", --⊨
   Enum = "☰",
   Keyword = "",
   Snippet = "§",
   Color = "ℂ",
   File = "▣",
-  Reference = "⎋",
-  Folder = "⌂",
+  Reference = "↗",
+  Folder = "▬",
   EnumMember = "☲",
   Constant = "ẞ",
   Struct = "ϡ",
   Event = "Ԑ", --ԅ
-  Operator = "␥",
+  Operator = "<|>",
   TypeParameter = "ϟ",
 }
 -- find more here: https://www.nerdfonts.com/cheat-sheet

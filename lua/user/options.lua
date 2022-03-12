@@ -1,13 +1,3 @@
--- opt.backup = false                          -- creates a backup file
--- opt.ignorecase = true                       -- Will ignore the case when searching for patterns 
--- opt.tabstop = 4                             -- insert 4 spaces for a tab
--- opt.wrap = false                            -- display lines as one long line
--- opt.number = true                           -- set numbered lines
--- opt.relativenumber = true                   -- set relative numbered lines
--- opt.smartindent = true                      -- make indenting smarter again
--- opt.splitbelow = true                       -- force all horizontal splits to go below current window
--- opt.splitright = true                       -- force all vertical splits to go to the right of current window
-
 local options = {
   backup = false,                          -- creates a backup file
   clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
@@ -26,7 +16,7 @@ local options = {
   splitbelow = true,                       -- force all horizontal splits to go below current window
   splitright = true,                       -- force all vertical splits to go to the right of current window
   swapfile = false,                        -- creates a swapfile
-  -- termguicolors = true,                 -- set term gui colors (most terminals support this)
+  termguicolors = true,                    -- set term gui colors (most terminals support this)
   timeoutlen = 1000,                       -- time to wait for a mapped sequence to complete (in milliseconds)
   undofile = true,                         -- enable persistent undo
   updatetime = 300,                        -- faster completion (4000ms default)
@@ -34,14 +24,15 @@ local options = {
   expandtab = true,                        -- convert tabs to spaces
   shiftwidth = 4,                          -- the number of spaces inserted for each indentation
   tabstop = 4,                             -- insert 2 spaces for a tab
-  cursorline = false,                       -- highlight the current line
+  cursorline = true,                       -- highlight the current line
   number = true,                           -- set numbered lines
-  relativenumber = true,                  -- set relative numbered lines
+  relativenumber = true,                   -- set relative numbered lines
   numberwidth = 4,                         -- set number column width to 2 {default 4}
   signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
-  wrap = false,                            -- display lines as one long line
-  scrolloff = 8,                           -- is one of my fav
-  sidescrolloff = 8,
+  wrap = false,                            -- display lines as one long line one long line
+  scrolloff = 4,                           -- is one of my fav
+  sidescrolloff = 4,
+  -- guifont = "monospace:h17",               -- the font used in graphical neovim applications
 }
 
 vim.opt.shortmess:append "c"

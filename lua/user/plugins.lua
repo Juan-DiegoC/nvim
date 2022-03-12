@@ -38,17 +38,75 @@ packer.init {
   },
 }
 
+-- Install your plugins here
 return packer.startup(function(use)
-
+  -- My plugins here
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "windwp/nvim-autopairs" --Autopairs for nvim
 
-  use "psliwka/vim-smoothie" -- Smooth Scrolling
+  -- Colorschemes
+  use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
+  use "lunarvim/darkplus.nvim"
+  use "norcalli/nvim-colorizer.lua"
+
+  -- cmp plugins
+  use "hrsh7th/nvim-cmp" -- The completion plugin
+  use "hrsh7th/cmp-buffer" -- buffer completions
+  use "hrsh7th/cmp-path" -- path completions
+  use "hrsh7th/cmp-cmdline" -- cmdline completions
+  use "saadparwaiz1/cmp_luasnip" -- snippet completions
+  use "hrsh7th/cmp-nvim-lsp"
+  use "hrsh7th/cmp-nvim-lua"
+
+  -- snippets
+  use "L3MON4D3/LuaSnip" --snippet engine
+  use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
+
+  -- LSP
+  use "neovim/nvim-lspconfig" -- enable LSP
+  use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+
+
+  use "psliwka/vim-smoothie"
+  use "machakann/vim-highlightedyank"
+
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"
+
+  -- Treesitter
+  use {
+      "nvim-treesitter/nvim-treesitter", run = ":TSUpdate"
+  }
+
+  -- use "p00f/nvim-ts-rainbow"
+  use "nvim-treesitter/playground"
+
+  -- Comments
+  use "numToStr/Comment.nvim"
+  use "JoosepAlviste/nvim-ts-context-commentstring"
+
+  use {"kyazdani42/nvim-web-devicons", lock = true}
+  use "kyazdani42/nvim-tree.lua"
+
+  -- Rust
+  -- use 'simrat39/rust-tools.nvim'
+  -- use 'mfussenegger/nvim-dap'
+  -- use 'mattn/webapi-vim'
+  use 'rust-lang/rust.vim'
+
+
+
+  use "joshdick/onedark.vim"
+  use "vimwiki/vimwiki"
+  use "/junegunn/goyo.vim"
+  use "sotte/presenting.vim"
+  -- use "rust-lang/rust.vim"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
-
   if PACKER_BOOTSTRAP then
     require("packer").sync()
   end

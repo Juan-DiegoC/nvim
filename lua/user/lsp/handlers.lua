@@ -1,5 +1,6 @@
 local M = {}
 
+-- Fix issues with vuejs typescript server -> https://github.com/neovim/nvim-lspconfig/issues/260
 -- TODO: backfill this to template
 M.setup = function()
     local signs = {
@@ -50,6 +51,7 @@ local function lsp_highlight_document(client)
       false
     )
   end
+    -- require'completion'.on_attach(client) -- Not sure 
 end
 
 local function lsp_keymaps(bufnr)
